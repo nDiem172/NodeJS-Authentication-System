@@ -135,6 +135,8 @@ Kết quả change password
 Kết qủa logout
 ![results](public/results/logout.png)
 
+Kết quả mongo
+![results](public/results/mongo.png)
 
 
 
