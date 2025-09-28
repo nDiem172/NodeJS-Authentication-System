@@ -106,3 +106,35 @@ This project was created by [Ravikant Singh](https://github.com/ravikantsingh12)
 ## Follow me on
 
 - [LinkedIn](https://www.linkedin.com/in/ravikant-singh-327a98241)
+
+-----------------------
+### Kết quả:
+### CLIENT_ID: Google OAuth client ID. and CLIENT_SECRET: Google OAuth client secret (sign in with Google).
+Kết quả
+![results](public/results/OAuth_create.png)
+
+### RECAPTCHA_SECRET_KEY: Google reCAPTCHA secret key.
+Kết quả
+![results](public/results/recaptcha.png)
+![results](public/results/results_recaptcha.png)
+
+### Test
+Kết quả EMAIL: Email address for sending emails.
+![results](public/results/login_access.png)
+
+![results](public/results//results_login_access.png)
+
+Kết qủa sign up
+![results](public/results/create_account.png)
+![results](public/results/results_create_account.png)
+
+Kết quả change password
+![results](public/results/change_pass.png)
+![results](public/results/results_changepass.png)
+
+Kết qủa logout
+![results](public/results/logout.png)
+
+
+
+

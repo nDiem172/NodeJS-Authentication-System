@@ -20,7 +20,8 @@ app.use(
     secret: "SecretKey",
     resave: false,
     saveUninitialized: true,
-    cookie: { secure: false },
+    cookie: { secure: false, maxAge: 15 * 60 * 1000 
+    },
   })
 );
 
@@ -38,7 +39,7 @@ passport.use(
       clientID: process.env.CLIENT_ID,
       clientSecret: process.env.CLIENT_SECRET,
       callbackURL:
-        "https://nodejs-authentication-system-l2pu.onrender.com/auth/google/callback",
+        "http://localhost:3000/auth/google/callback",
       scope: ["profile", "email"],
     },
     function (accessToken, refreshToken, profile, callback) {
